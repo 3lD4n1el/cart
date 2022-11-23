@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    background: rgb(121, 9, 57);
+    background: radial-gradient(circle, rgb(173, 13, 83) 0%, rgba(0, 0, 0, 0.932) 70%);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.37) ;
+    padding: 30px 30px 36px 30px;
+    border-radius: 30px;
+    
+}
+
+#foto {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: solid white 8px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.redes{
+    font-size: 22px;
+    background-color: radial-gradient(circle, rgb(173, 13, 83) 0%, rgba(0, 0, 0, 0.829) 70%);
+    padding: 6px;
+    border-radius: 0%;
+    margin-right: 6px;
+}
